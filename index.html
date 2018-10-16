@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector Game</title>
+
+    <!--Link to the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+
+   
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header class="header1">
+            <h1>Crystals Collector!</h1>
+        </header>
+
+        <section class="instruction">
+            <p> You will be given a random number at the start of the game.</p>
+            <br>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <br>
+            <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</p>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+            <p>Each time when the game starts the game will change the values of each crystal.</p>
+        </section>
+        
+        <section class="game-contents"> 
+            <span id="randid" class="random-num"></span>
+            
+            <span class="win-loss">
+                <div id="wins" class="div-wins">Wins: <span id="spanwins"></span></div>
+                <br>
+                <div id="losses" class="div-losses">Losses: <span id="spanloss"></span></div>
+            </span>
+            
+            <div class="empty"></div>
+
+            <div class="buttons">
+                <button type="button" class="crystal" id="crystal1">
+                    <img src="assets/images/daimond.jpg ">
+                </button>
+
+                <button type="button" class="crystal" id="crystal2">
+                    <img src="assets/images/ruby.jpg">
+                </button>
+
+                <button type="button" class="crystal" id="crystal3">
+                    <img src="assets/images/sapphire.png">
+                </button>
+
+                <button type="button" class="crystal" id="crystal4">
+                    <img src="assets/images/emeral.jpg">
+                </button>
+            </div>
+
+            <p class="ytotalscore">Your total score is:</p>
+
+            <div id="totalscore" class="total-score"></div>
+
+        </section>
+     </div>   
+</body>
+</html>

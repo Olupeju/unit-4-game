@@ -1,0 +1,93 @@
+
+.container {
+    background-image: url("../images/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    max-width: 700px;
+    margin: 0 auto;
+    border: solid 3px black
+}
+
+.header1 {
+    border: solid 3px black;
+    text-align: center;
+    font-size: 150%;
+    background-color: salmon;
+    color: white;
+    width: 30%;
+    margin-left: 2%;
+    position: static;
+}
+
+.game-contents, .instruction{
+    margin-left: 2%;
+}
+
+.instruction {
+    width: 50%;
+    border: solid 3px black;
+    background-color: #faebd7;
+    margin-top: 2%;
+    height: 300px;
+}
+
+.random-num {
+    width: 10%;
+    height: 50px;
+    border: solid 3px black;
+    background-color: #2e8b57;
+    margin-top: 2%;
+    float: left;
+    text-align: center;
+    line-height: 300%;
+    font-weight: bold;
+}
+
+.win-loss {
+    border: solid 3px black;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 10%;
+    height: 50px;
+    background-color: #87cefa;
+    float: left;
+    font-weight: bold;
+}
+
+.empty {
+    clear: both;
+}
+.crystal img {
+    width:100%;
+}
+.crystal {
+    margin-top: 2%;
+    height: 50px;
+    width: 50px;
+   
+}
+
+.ytotalscore {
+    margin-top: 2%;
+    border: 2px solid black;
+    width: 15%;
+    height: 30px;
+    background-color: #48d1cc;
+    font-weight: bold;
+}
+
+.total-score {
+    margin-top: 2%;
+    border: 2px solid black;
+    width: 15%;
+    background-color: #48d1cc;
+    height: 40px;
+    text-align: center;
+    line-height: 225%;
+    font-weight: bold;
+}
+
+
+
+
